@@ -1,0 +1,111 @@
+.thatpart{
+    background-color: #98bad5;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.mostbottompart{
+    display: flex;
+    justify-content: space-between;
+}
+.mostbottompart >div{
+    flex: 1;
+
+}
+.a{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-top: 11.5px;
+    margin-right: 10px;
+    font-size: 127%;
+}
+.a p{
+    padding: 5px ;
+    margin: 4px;
+}
+.artworkthing{
+    display: flex;
+    flex-direction: column;
+}
+.artworkthing button{
+    text-indent: 10px;
+    font-size: 15px;
+    width: 92.75%;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #98bad5;
+    border: 2px solid #475f76;
+    border-radius: 10px;
+}
+.imagessd{
+    gap: 5px;
+    display: flex;
+}
+.imagessd img{
+    width: 45%;
+    border-radius: 20px;
+    border: 2px solid #475f76;
+}
+.thisstickerthing{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.thisstickerthing img{
+    background-color: #98bad5;
+    border-radius: 25px;
+    width: 31%;
+    padding: 15px;
+    margin: 2px;
+    border: #475f76 solid 2px;
+}
+
+
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    margin-left: 10px;
+}
+.profile img{
+    width: 40px;
+}
+.someoptions a{
+    text-decoration: none;
+    font-size: 27px;
+    color: #475f76;
+}
+.smthaboutaccounts{
+    display: flex;
+}
+.smthaboutaccounts button{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80%;
+    margin-right: 10px;
+}
+.buttona{
+    border: 2px solid #475f76;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #475f76;
+}
+.buttonb{
+    border: 2px solid #98bad5;
+    border-radius: 25px;
+    background-color: #98bad5;
+    color: #e6f1f2;
+}
