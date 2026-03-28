@@ -11,10 +11,6 @@
     display: flex;
     justify-content: space-between;
 }
-.mostbottompart >div{
-    flex: 1;
-
-}
 .a{
     width: 100%;
     border: 1px solid;
@@ -28,6 +24,7 @@
     margin: 4px;
 }
 .artworkthing{
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -36,7 +33,6 @@
     font-size: 15px;
     width: 92.75%;
     margin-top: 5px;
-    margin-left: 10px;
     padding: 10px;
     background-color: #98bad5;
     border: 2px solid #475f76;
@@ -52,7 +48,9 @@
     border: 2px solid #475f76;
 }
 .thisstickerthing{
+    width: 500px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin-left: 10px;
     margin-top: 20px;
@@ -60,7 +58,7 @@
 .thisstickerthing img{
     background-color: #98bad5;
     border-radius: 25px;
-    width: 31%;
+    width: 50%;
     padding: 15px;
     margin: 2px;
     border: #475f76 solid 2px;
@@ -92,7 +90,6 @@ header{
 .smthaboutaccounts button{
     padding-right: 30px;
     padding-left: 30px;
-    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 80%;
     margin-right: 10px;
@@ -108,4 +105,85 @@ header{
     border-radius: 25px;
     background-color: #98bad5;
     color: #e6f1f2;
+}
+
+
+
+
+
+
+.forml{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%; 
+}
+.forml input,textarea,select,p,button{
+    color: #475f76;
+    height: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.forml label{
+    font-size: 15px;
+    color: #475f76;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.klklk{
+    display: flex;
+    width: 20px;
+    align-items:center;
+}
+
+.commentk{
+    color: #475f76;
+    flex-basis: 55%;
+}
+.commentk span{
+    font-weight: bolder;
+}
+
+.ghth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lklklp{
+    background-color: #475f76;
+    width: 2px;
+}
+
+
+.llaala{
+    display: flex;
+    
+}
+.card {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
