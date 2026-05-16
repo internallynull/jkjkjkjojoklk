@@ -90,6 +90,7 @@ header{
 .smthaboutaccounts button{
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 80%;
     margin-right: 10px;
@@ -117,7 +118,11 @@ header{
     flex-direction: column;
     flex-basis: 40%; 
 }
-.forml input,textarea,select,p,button{
+.forml input,
+.forml textarea,
+.forml select,
+.forml p,
+.forml button{
     color: #475f76;
     height: 20px;
     margin: 10px;
@@ -163,27 +168,114 @@ header{
   box-sizing: border-box;
   width: 190px;
   height: 254px;
-  background: rgba(217, 217, 217, 0.58);
-  border: 1px solid white;
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  background: #e6f1f2;
+  border: 1px solid #e6f1f2;
+  box-shadow: 12px 17px 51px #98bad5;
   backdrop-filter: blur(6px);
   border-radius: 17px;
   text-align: center;
-  cursor: pointer;
+  cursor:not-allowed;
   transition: all 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
   user-select: none;
   font-weight: bolder;
-  color: black;
+  color: #2e3e59;
+  margin-right: 10px;
 }
 
 .card:hover {
-  border: 1px solid black;
+  border: 1px solid;
   transform: scale(1.05);
+  animation: spin 0.5s linear infinite;
 }
 
 .card:active {
   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.otherbutton{
+    width: 90%; 
+    margin: 2px 16px; 
+    padding: 10px 5px;
+    font-size: 80%;
+    background-color: #e6f1f2;
+    border: #e6f1f2 2px solid;
+    border-radius: 5px;
+    color: #2e3e59;
+}
+
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.otherbutton:hover{
+    animation: spin 10s linear infinite;
+}
+
+@media only screen and (max-width: 800px) {
+    .llaala{flex-direction: column;flex-wrap: wrap;}
+    .imagessd{flex-direction: column; align-items: center;}
+    .someoptions a{font-size: larger;}
+    .thisstickerthing img{width: 90px;}
+}
+
+@media only screen and (max-width: 200px) {
+    
+}
+
+
+
+
+
+
+.smthjj{
+    margin: 10px;
+    padding: 10px;
+    background-color: #d9eef3;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    border: #a5ced2;
+    width: 50%;
+}
+.smthjj input,
+.smthjj textarea{
+    border: none;
+    outline: none;
+    background:transparent;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #8abdc1;
+    font-family: monospace;
+}
+
+.rowowow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formj{
+    margin-right: 5%;
+    width: 100%;
+}
+
+.neneneme{
+    background-color: #548189;
+    padding: 5%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }

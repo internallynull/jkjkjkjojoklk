@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nanisonome</title>
+</head>
+<body>
+    <h1 id="this">claim a hsr lyric or i will</h1>
+    <p>1. si lieee xinghainjiefaangg</p>
+    <p class="that">2. baby watch it burn send death to isolation</p>
+    <p class="those">3. i dont wanna be alone tonight so bring me to ur alter siide</p>
+    <p class="those these">4. i wish you well i wish like hell u hadnt lied we could be fine the way i dress overobsess still js like u i owe it to the best-worst friend ive ever haaaad</p>
+    <p class="these">5. i think abt u always tied together w a string i thought the lilies died by iwinter then they bloomed again in spring its a heartbreak not the end of our girlhood ill never go back to our castle in hollywood</p>
+    <button onclick="changetext1()">take the title</button>
+    <button onclick="changetext2()">take the 1st one</button>
+    <button onclick="changetext3()">take the 2nd one</button>
+    <button onclick="changetext4()">take the 3rd one</button>
+    <button onclick="changetext5()">take the 4th AND 5th one</button>
+</body>
+<script>
+    function changetext1(){
+        let yeah= document.getElementById("this");
+        yeah.innerHTML = "why r u tryna take the title";
+    }
+    function changetext2(){
+        let uhhuh= document.getElementsByTagName("p")
+        uhhuh[0].innerHTML = "1. si lieee xinghainjiefaangg (claimed by ME not you)"
+        uhhuh[0].style.color= "blue"
+    }
+    function changetext3(){
+        let okaybuddy = document.getElementsByClassName("that")
+        okaybuddy[0].innerHTML = "2. baby watch it burn send death to isolation (claimed by u)"
+        okaybuddy[0].style.background= "yellow"
+    }
+    function changetext4(){
+        let slumber = document.querySelector(".those")
+        slumber.innerHTML = "3. i dont wanna be alone tonight so bring me to ur alter siide (claimed by ME again cuz i like it more)"
+        slumber.style.color = "blue"
+    }
+    function changetext5(){
+        let spyglass = document.querySelectorAll(".these")
+        spyglass[0].innerHTML = "4. i wish you well i wish like hell u hadnt lied we could be fine the way i dress overobsess still js like u i owe it to the best-worst friend ive ever haaaad (claimed by give me that before you hurt yourself)"
+        spyglass[0].style.color = "purple"
+        spyglass[1].innerHTML= "5. i think abt u always tied together w a string i thought that lilies died by iwinter then they bloomed again in spring my 1st heartbreak marked the end of our girlhood ill never go back to our castle in hollywood (claimed by its all yours)"
+        spyglass[1].style.color = "green"
+    }
+</script>
+</html>
